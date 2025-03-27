@@ -239,3 +239,7 @@ foreach( Character character in characters.Where(c => c.Series.Contains("Mario")
   Console.WriteLine($"Name: {character.Name}\n");
 }
 
+//[1.25c] How many character(s) in the Mario series are Koopa species?
+
+int koopaCount = characters.Count(c => c.Series.Contains("Mario") && c.Species == "Koopa");
+Console.WriteLine($"There are {koopaCount} characters in the Mario series with the species of Koopa");
