@@ -223,6 +223,11 @@ Console.Clear();
 int charactercount = characters.Count(c => c.Species == "Kremling");
 Console.WriteLine($"There are {charactercount} characters with the species of Kremling");
 
+//[1.24b] List the character(s) that have a species of Kremling - return character name only.
+foreach(Character character in characters.Where(c => c.Species == "Kremling"))
+{
+  Console.WriteLine($"Name: {character.Name}\n Species: {character.Species}\n");
+}
 
 
 
