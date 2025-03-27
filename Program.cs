@@ -176,17 +176,21 @@ Console.Clear();
 // }
 
 
-//[1.21g] Are there any character(s) with no alias (Donkey Kong series)?
-bool characterAliasDK = characters.Any(c => c.Alias.Count() == 0 && c.Series.Contains("Donkey Kong"));
-Console.WriteLine($"Are there any characters with no alias in the Donkey Kong series: {characterAliasDK}");
+// //[1.21g] Are there any character(s) with no alias (Donkey Kong series)?
+// bool characterAliasDK = characters.Any(c => c.Alias.Count() == 0 && c.Series.Contains("Donkey Kong"));
+// Console.WriteLine($"Are there any characters with no alias in the Donkey Kong series: {characterAliasDK}");
 
-//[1.21h] How many character(s) with no alias (Donkey Kong series)?
-int characterNOAliasDK = characters.Count(c => c.Alias.Count() == 0 && c.Series.Contains("Donkey Kong"));
-Console.WriteLine($"There are {characterNOAliasDK} characters with no alias in Donkey Kong series");
+// //[1.21h] How many character(s) with no alias (Donkey Kong series)?
+// int characterNOAliasDK = characters.Count(c => c.Alias.Count() == 0 && c.Series.Contains("Donkey Kong"));
+// Console.WriteLine($"There are {characterNOAliasDK} characters with no alias in Donkey Kong series");
 
 
-//[1.21i] List the character(s) with no alias (Donkey Kong series) - return character name and alias only.
-foreach(Character character in characters.Where(c => c.Alias.Count() == 0 && c.Series.Contains("Donkey Kong")))
-{
-  Console.WriteLine($"Name: {character.Name}\n Alias: {string.Join(",", character.Alias)}");
-}
+// //[1.21i] List the character(s) with no alias (Donkey Kong series) - return character name and alias only.
+// foreach(Character character in characters.Where(c => c.Alias.Count() == 0 && c.Series.Contains("Donkey Kong")))
+// {
+//   Console.WriteLine($"Name: {character.Name}\n Alias: {string.Join(",", character.Alias)}");
+// }
+
+//[1.22a] Do any character(s) have an alias of Snowmad King (return type must be boolean)?
+bool characterAlias = characters.Any(c => c.Alias.Contains("Snowmad King"));
+Console.WriteLine($"Are there any characters with the alias Snowmad King: {characterAlias}");
