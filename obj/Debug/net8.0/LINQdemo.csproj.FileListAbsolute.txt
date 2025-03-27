@@ -1,0 +1,14 @@
+C:\Users\xanam\OneDrive\Documents\WCTC\.NET(INTO)\LINQdemo\bin\Debug\net8.0\LINQdemo.exe
+C:\Users\xanam\OneDrive\Documents\WCTC\.NET(INTO)\LINQdemo\bin\Debug\net8.0\LINQdemo.deps.json
+C:\Users\xanam\OneDrive\Documents\WCTC\.NET(INTO)\LINQdemo\bin\Debug\net8.0\LINQdemo.runtimeconfig.json
+C:\Users\xanam\OneDrive\Documents\WCTC\.NET(INTO)\LINQdemo\bin\Debug\net8.0\LINQdemo.dll
+C:\Users\xanam\OneDrive\Documents\WCTC\.NET(INTO)\LINQdemo\bin\Debug\net8.0\LINQdemo.pdb
+C:\Users\xanam\OneDrive\Documents\WCTC\.NET(INTO)\LINQdemo\obj\Debug\net8.0\LINQdemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xanam\OneDrive\Documents\WCTC\.NET(INTO)\LINQdemo\obj\Debug\net8.0\LINQdemo.AssemblyInfoInputs.cache
+C:\Users\xanam\OneDrive\Documents\WCTC\.NET(INTO)\LINQdemo\obj\Debug\net8.0\LINQdemo.AssemblyInfo.cs
+C:\Users\xanam\OneDrive\Documents\WCTC\.NET(INTO)\LINQdemo\obj\Debug\net8.0\LINQdemo.csproj.CoreCompileInputs.cache
+C:\Users\xanam\OneDrive\Documents\WCTC\.NET(INTO)\LINQdemo\obj\Debug\net8.0\LINQdemo.dll
+C:\Users\xanam\OneDrive\Documents\WCTC\.NET(INTO)\LINQdemo\obj\Debug\net8.0\refint\LINQdemo.dll
+C:\Users\xanam\OneDrive\Documents\WCTC\.NET(INTO)\LINQdemo\obj\Debug\net8.0\LINQdemo.pdb
+C:\Users\xanam\OneDrive\Documents\WCTC\.NET(INTO)\LINQdemo\obj\Debug\net8.0\LINQdemo.genruntimeconfig.cache
+C:\Users\xanam\OneDrive\Documents\WCTC\.NET(INTO)\LINQdemo\obj\Debug\net8.0\ref\LINQdemo.dll
