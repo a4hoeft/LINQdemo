@@ -101,3 +101,7 @@ Console.Clear();
 //     Console.WriteLine($"\t{character.Name}");
 //   }
 // }
+
+// How many characters were created in 1981? (all series)
+int characterCount = characters.Count(c => c.YearCreated == 1981);
+Console.WriteLine($"There are {characterCount} characters created in 1981");
