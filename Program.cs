@@ -233,5 +233,9 @@ Console.Clear();
 int charactercount = characters.Count(c => c.Series.Contains("Mario") && c.Species == "Human");
 Console.WriteLine($"There are {charactercount} characters in the Mario series with the species of Human");
 
-
+//[1.25b] List the character(s) in the Mario series that are Human species - return character name only.
+foreach( Character character in characters.Where(c => c.Series.Contains("Mario") && c.Species == "Human"))
+{
+  Console.WriteLine($"Name: {character.Name}\n");
+}
 
