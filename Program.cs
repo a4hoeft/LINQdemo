@@ -143,17 +143,22 @@ Console.Clear();
 //   Console.WriteLine($"Name: {character.Name}\n");
 // }
 
-//[1.21a] Are there any character(s) with no alias (all series)?
-bool characterAlias = characters.Any(c => c.Alias.Count() == 0);
-Console.WriteLine($"Are there any characters with no alias: {characterAlias}");
+// //[1.21a] Are there any character(s) with no alias (all series)?
+ //bool characterAlias = characters.Any(c => c.Alias.Count() == 0);
+// Console.WriteLine($"Are there any characters with no alias: {characterAlias}");
 
 
-// [1.21b] How many character(s) with no alias (all series)?
-int characterNOAlias = characters.Count(c => c.Alias.Count() == 0);
-Console.WriteLine($"There are {characterNOAlias} characters with no alias");
+// // [1.21b] How many character(s) with no alias (all series)?
+// int characterNOAlias = characters.Count(c => c.Alias.Count() == 0);
+// Console.WriteLine($"There are {characterNOAlias} characters with no alias");
 
-//[1.21c] List the character(s) with no alias (all series) - return character name, alias and series only.
-foreach(Character character in characters.Where(c => c.Alias.Count() == 0))
-{
-  Console.WriteLine($"Name: {character.Name}\n Alias: \n Series: {string.Join(", ", character.Series)}\n");
-}
+// //[1.21c] List the character(s) with no alias (all series) - return character name, alias and series only.
+// foreach(Character character in characters.Where(c => c.Alias.Count() == 0))
+// {
+//   Console.WriteLine($"Name: {character.Name}\n Alias: \n Series: {string.Join(", ", character.Series)}\n");
+// }
+
+
+//[1.21d] Are there any character(s) with no alias (Mario series)?
+bool characterAliasM = characters.Any(c => c.Alias.Count() == 0 && c.Series.Contains("Mario"));
+Console.WriteLine($"Are there any characters with no alias in the Mario series: {characterAliasM}");
