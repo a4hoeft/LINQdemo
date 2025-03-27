@@ -12,3 +12,4 @@ C:\Users\xanam\OneDrive\Documents\WCTC\.NET(INTO)\LINQdemo\obj\Debug\net8.0\refi
 C:\Users\xanam\OneDrive\Documents\WCTC\.NET(INTO)\LINQdemo\obj\Debug\net8.0\LINQdemo.pdb
 C:\Users\xanam\OneDrive\Documents\WCTC\.NET(INTO)\LINQdemo\obj\Debug\net8.0\LINQdemo.genruntimeconfig.cache
 C:\Users\xanam\OneDrive\Documents\WCTC\.NET(INTO)\LINQdemo\obj\Debug\net8.0\ref\LINQdemo.dll
+C:\Users\xanam\OneDrive\Documents\WCTC\.NET(INTO)\LINQdemo\obj\Debug\net8.0\LINQdemo.sourcelink.json

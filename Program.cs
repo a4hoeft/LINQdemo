@@ -122,12 +122,18 @@ Console.Clear();
 //   Console.WriteLine($"Name: {character.Name}\n");
 // }
 
-//How many character(s) were created in 1981 (DK series)?
-int charactercount = characters.Count(c => c.YearCreated == 1981 && c.Series.Contains("Donkey Kong"));
-Console.WriteLine($"There are {charactercount} characters created in 1981 in the Donkey Kong series");
+// //How many character(s) were created in 1981 (DK series)?
+// int charactercount = characters.Count(c => c.YearCreated == 1981 && c.Series.Contains("Donkey Kong"));
+// Console.WriteLine($"There are {charactercount} characters created in 1981 in the Donkey Kong series");
 
-//List the character(s) created in that 1981 (Donkey Kong series) - return character name only.
-foreach(Character character in characters.Where(c => c.YearCreated == 1981 && c.Series.Contains("Donkey Kong")))
-{
-  Console.WriteLine($"Name: {character.Name}\n");
-}
+// //List the character(s) created in that 1981 (Donkey Kong series) - return character name only.
+// foreach(Character character in characters.Where(c => c.YearCreated == 1981 && c.Series.Contains("Donkey Kong")))
+// {
+//   Console.WriteLine($"Name: {character.Name}\n");
+// }
+
+//[1.20a] How many character(s) made their first appearance in Donkey Kong 64?
+
+int charactercount = characters.Count(c => c.FirstAppearance.Contains("Donkey Kong 64"));
+Console.WriteLine($"There are {charactercount} characters that first appeared in Donkey Kong 64");
+
