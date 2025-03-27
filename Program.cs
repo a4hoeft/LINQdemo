@@ -137,3 +137,8 @@ Console.Clear();
 int charactercount = characters.Count(c => c.FirstAppearance.Contains("Donkey Kong 64"));
 Console.WriteLine($"There are {charactercount} characters that first appeared in Donkey Kong 64");
 
+//[1.20b] List the character(s) that made their first appearance in Donkey Kong 64 - return character name only.
+foreach(Character character in characters.Where(c => c.FirstAppearance.Contains("Donkey Kong 64")))
+{
+  Console.WriteLine($"Name: {character.Name}\n");
+}
