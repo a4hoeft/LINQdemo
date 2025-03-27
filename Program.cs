@@ -261,3 +261,8 @@ foreach( Character character in characters.Where(c => c.Series.Contains("Mario")
   Console.WriteLine($"Name: {character.Name}\n Species: {character.Species}\n");
 }
 
+//[1.26] List the character(s) in the Donkey Kong series that are something other than Human or Kong species - return character name and species only?
+foreach(Character character in characters.Where(c => c.Series.Contains("Donkey Kong")&& c.Species !="Human" && c.Species !="Kong"))
+{
+  Console.WriteLine($"Name: {character.Name}\n Species: {character.Species}\n");
+}
