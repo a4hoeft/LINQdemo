@@ -203,21 +203,28 @@ Console.Clear();
 // }
 
 //[1.23a] Do any character(s) that have an alias of Winter Kong (return type must be boolean)?
-bool characterAlias = characters.Any(c => c.Alias.Contains("Winter Kong"));
-Console.WriteLine($"Are there any characters with the alias Winter Kong: {characterAlias}");
+// bool characterAlias = characters.Any(c => c.Alias.Contains("Winter Kong"));
+// Console.WriteLine($"Are there any characters with the alias Winter Kong: {characterAlias}");
 
-//[1.23b] List the character(s) that have an alias of Winter Kong - return character name and alias only.
+// //[1.23b] List the character(s) that have an alias of Winter Kong - return character name and alias only.
 
-    foreach(Character character in characters.Where(c => c.Alias.Contains("Winter Kong")))
-{
-  Console.WriteLine($"Name: {character.Name}\n Alias: {string.Join(",", character.Alias)}");
-} if (characters.Where(c => c.Alias.Contains("Winter Kong")).Count() == 0)
-{   
+//     foreach(Character character in characters.Where(c => c.Alias.Contains("Winter Kong")))
+// {
+//   Console.WriteLine($"Name: {character.Name}\n Alias: {string.Join(",", character.Alias)}");
+// } if (characters.Where(c => c.Alias.Contains("Winter Kong")).Count() == 0)
+// {   
 
 
-  Console.WriteLine("No characters with the alias Winter Kong");
+//   Console.WriteLine("No characters with the alias Winter Kong");
 
-};
+// };
+
+//[1.24a] How many character(s) have a species of Kremling?
+int charactercount = characters.Count(c => c.Species == "Kremling");
+Console.WriteLine($"There are {charactercount} characters with the species of Kremling");
+
+
+
 
 
 
