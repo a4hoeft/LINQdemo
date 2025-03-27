@@ -162,3 +162,8 @@ Console.Clear();
 //[1.21d] Are there any character(s) with no alias (Mario series)?
 bool characterAliasM = characters.Any(c => c.Alias.Count() == 0 && c.Series.Contains("Mario"));
 Console.WriteLine($"Are there any characters with no alias in the Mario series: {characterAliasM}");
+
+
+// [1.21e] How many character(s) with no alias (Mario series)?
+int characterNOAliasM = characters.Count(c => c.Alias.Count() == 0 && c.Series.Contains("Mario"));
+Console.WriteLine($"There are {characterNOAliasM} characters with no alias in mario series");
