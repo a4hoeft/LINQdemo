@@ -126,3 +126,8 @@ Console.Clear();
 int charactercount = characters.Count(c => c.YearCreated == 1981 && c.Series.Contains("Donkey Kong"));
 Console.WriteLine($"There are {charactercount} characters created in 1981 in the Donkey Kong series");
 
+//List the character(s) created in that 1981 (Donkey Kong series) - return character name only.
+foreach(Character character in characters.Where(c => c.YearCreated == 1981 && c.Series.Contains("Donkey Kong")))
+{
+  Console.WriteLine($"Name: {character.Name}\n");
+}
